@@ -5,16 +5,13 @@
 
 body{
     background-color: darkgrey;
-    Text-shadow: 1px 1px 1px white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    max-width: 100%;
 }
 
 #navbar{
     display:flex;
     Font-size: 25px;
-    border-style: solid;
-    border-width:1px;
+    background-color:tan;
     justify-content: flex-end;
 }
 
@@ -22,27 +19,26 @@ main{
     flex:auto;
     justify-content: baseline;
     padding:10px;
+    background-color: sienna;
 }
 
 ul{
     display:flex;
+    border-style: solid;
+    margin-right: 10px;      
 }
 
 Li{
-    list-style-type: none;
-    padding:1px;
+    list-style-type:none;
+    padding:1px 10px 1px 10px;
     font-size:1rem;
 
 }
-
-
 
 header{
     padding:10px;
     background-color: white;
     text-decoration: underline;
-    border-style: solid;
-    border-width: 1px;
    
 }
 
@@ -70,6 +66,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     display:block;
+    background-color: black;
 }
 
 .portfolio{
@@ -78,6 +75,9 @@ img{
     background-color: white;
     padding:30px;
     display: block;
+}
+.card > img{
+    width: 100%;
 }
 
 h4{
@@ -97,13 +97,16 @@ h5{
     border-style: solid;
     border-width:1px;
     list-style-position: inside;
+    text-decoration-color: white;
 }
 
 footer{
     padding:30px;
-    clear:both;
     text-align: center;
-    background-color: white;
+    color:white;
+    background-color:black;
     border-style: solid;
     border-width: 1px;
 }
+
+@media screen and ()
