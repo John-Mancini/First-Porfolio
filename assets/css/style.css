@@ -60,14 +60,7 @@ h3{
 }
 
 
-img{
-    border-style: solid;
-    border-width:1px;
-    margin-left: auto;
-    margin-right: auto;
-    display:block;
-    background-color: black;
-}
+
 
 .portfolio{
     border-style: solid;
@@ -76,8 +69,18 @@ img{
     padding:30px;
     display: block;
 }
+.card{
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    flex:auto;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+    width: 25%;
+}
 .card > img{
     width: 100%;
+    flex:auto;
 }
 
 h4{
