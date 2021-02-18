@@ -1,0 +1,48 @@
+body{
+    background-color: darkgrey;
+    Text-shadow: 1px 1px 1px white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+main{
+    flex:auto;
+    justify-content: baseline;
+}
+
+ul{
+    display:flex;
+    padding:0px;
+    margin:0px;
+    justify-content: flex-end;
+}
+
+Li{
+    list-style-type: none;
+    padding:5px;
+    font-size:1rem;
+
+}
+
+.gradient{
+    background-image:linear-gradient(rgba(30, 75, 115, 1));
+}
+
+header{
+    padding:30px;
+    background-color: white;
+    text-align: center;
+    clear:both;
+    
+}
+
+#headshot{
+    border: 3px solid rgba(30, 75, 115, 1);
+}
+
+footer{
+    padding:30px;
+    clear:both;
+    text-align: center;
+    background-color: white;
+}
