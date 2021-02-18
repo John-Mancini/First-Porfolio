@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
 body{
     background-color: darkgrey;
     Text-shadow: 1px 1px 1px white;
@@ -5,39 +10,93 @@ body{
     max-width: 100%;
 }
 
+#navbar{
+    display:flex;
+    Font-size: 25px;
+    border-style: solid;
+    border-width:1px;
+    justify-content: flex-end;
+}
+
 main{
     flex:auto;
     justify-content: baseline;
+    padding:10px;
 }
 
 ul{
     display:flex;
-    padding:0px;
-    margin:0px;
-    justify-content: flex-end;
 }
 
 Li{
     list-style-type: none;
-    padding:5px;
+    padding:1px;
     font-size:1rem;
 
 }
 
-.gradient{
-    background-image:linear-gradient(rgba(30, 75, 115, 1));
-}
+
 
 header{
-    padding:30px;
+    padding:10px;
     background-color: white;
-    text-align: center;
-    clear:both;
-    
+    text-decoration: underline;
+    border-style: solid;
+    border-width: 1px;
+   
 }
 
-#headshot{
-    border: 3px solid rgba(30, 75, 115, 1);
+.about {
+    border-style: solid;
+    border-width:1px;
+    background-color: white;
+    padding:30px;
+    display:block;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    padding:30px;
+}
+
+.aboutme{
+    text-align: center;
+}
+
+
+img{
+    border-style: solid;
+    border-width:1px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.portfolio{
+    border-style: solid;
+    border-width:1px;
+    background-color: white;
+    padding:30px;
+    display: block;
+}
+
+h4{
+    text-align: center;
+    text-decoration: underline;
+    padding:30px;
+}
+
+h5{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width:1px;
+    list-style-position: inside;
 }
 
 footer{
@@ -45,4 +104,6 @@ footer{
     clear:both;
     text-align: center;
     background-color: white;
+    border-style: solid;
+    border-width: 1px;
 }
