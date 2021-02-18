@@ -19,7 +19,6 @@ main{
     flex:auto;
     justify-content: baseline;
     padding:10px;
-    background-color: sienna;
 }
 
 ul{
@@ -79,7 +78,7 @@ h3{
     width: 25%;
 }
 .card > img{
-    width: 100%;
+    width: 50%;
     flex:auto;
 }
 
@@ -112,4 +111,15 @@ footer{
     border-width: 1px;
 }
 
-@media screen and ()
+@media screen and (max-width:992){
+    .card{
+        width:50%
+    }
+}
+
+@media screen and (max-width:768px){
+    .card{
+        width:100%
+    }
+
+}
