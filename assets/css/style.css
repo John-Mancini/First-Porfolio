@@ -43,6 +43,10 @@ nav ul li a{
     font-weight: 700;
 }
 
+nav ul li:active{
+    transform:scale(1.1)
+}
+
 .logo{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:black;
@@ -59,6 +63,7 @@ nav ul li a{
     font-weight:bold;
     color:black;
     font-size: 30px;
+    text-align: center;
 }
 
 .text-contain p:nth-child(2){
@@ -73,6 +78,7 @@ nav ul li a{
     color:#403e3e;
     font-size:25px;
     line-height: 30px;
+    text-align: center;
 }
 
 .text-contain p{
@@ -89,13 +95,14 @@ nav ul li a{
 
 .text-contain button{
     width: 130px;
-    hight:42px;
+    height:25px;
     border-Radius:10px;
     font-family: calibri;
     font-weight:bold;
     font-size:14px;
     outline:none;
     margin:0px 10px;
+
 }
 
 .hireme{
@@ -121,6 +128,90 @@ button:active{
     border-radius: 300%;
     margin-bottom: 55px;
 }
+
+.about-me{
+    width:50%;
+    height: 300px;
+    background:#FFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    position:relative;
+    margin-top: -20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about-text P:nth-child(1){
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 0px;
+
+}
+
+.about-text P:nth-child(2){
+    color:#403e3e;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.about-text P:nth-child(3){
+    color:#3e3d3d;
+    font-family: calibri;
+    font-size: 20px;    
+}
+.work-text{
+
+}
+
+.card-1{
+    width: 300px ;
+    height:320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.maincard{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-2, .card-3{
+    width: 200px ;
+    height:220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.sub-cards{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    background-image: url("../images/Education.jpg");
+}
+.card-2{
+    background-image: url("../images/brain.jpg");
+}
+.card-3{
+    background-image: url("../images/interests.jpg");
+}
+
 
 
 
