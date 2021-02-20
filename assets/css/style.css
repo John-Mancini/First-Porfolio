@@ -74,10 +74,12 @@ nav ul li a{
     font-size:25px;
     line-height: 30px;
 }
+
 .text-contain p{
     line-height: 0px;
     margin:45px 0px 25px;
 }
+
 .text-contain{
     position: absolute;
     left:13%;
@@ -91,9 +93,34 @@ nav ul li a{
     border-Radius:10px;
     font-family: calibri;
     font-weight:bold;
-
+    font-size:14px;
+    outline:none;
+    margin:0px 10px;
 }
 
+.hireme{
+    border-radius: 2px solid #373636 ;
+    color:#373636;
+}
+
+.down-res{
+    background-color:#0b0b0b;
+    color:#FFF;
+    border:none;
+}
+
+button:active{
+    transform:scale(1.1)
+}
+.headshot{
+    height: 750px;
+    position:absolute;
+    bottom:0px;
+    left:80%;
+    transform: translate(-80%);
+    border-radius: 300%;
+    margin-bottom: 55px;
+}
 
 
 
