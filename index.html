@@ -1,110 +1,35 @@
 <!DOCTYPE html>
-
 <html lang="en-us">
-
+<!--character coding, css links, title-->
 <head>
-    <meta charset="UTF -8" />
-    <meta name="viewport" content="width=device-width, initial-scale1" />
-
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
-
-    <title>J. Mancini</title>
+<meta charset="utf-8"/>
+<title>J.Mancini Portfolio</title>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+<link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
 </head>
 
 <body>
-    <div class="gradient">
-    <!--Header-->
-
-    <header class="container-fluid text-center">
-        <h1>John Mancini</h1>
-        <h2>Professional Programmer</h2>
-    </header>
-    </div>
-    <!--NavBar-->
-    
-    <nav id="navbar">
-        <ul>
-            <li>
-                <a href="#about">About Me</a>
-            </li>
-            
-            <li>
-                <a href="#portfolio">Portfolio</a>
-            </li>
-            
-            <li>
-                <a href="#contact">Contact Me</a>
-            </li>
-            
-        </ul>
-    </nav>
-    
-    <!--Image-->
-
-    <img src="./assets/images/headshot.jpg" alt="pic of me">
-
-    <!--Body-->
-
-    <main>
-
-        <section class= "about">
-
-            <h3 id="about">About Me</h3>
-
-                <p class= "aboutme">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut ultricies mauris, eu dapibus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur at fermentum nisi. Phasellus vitae ipsum maximus, maximus nibh eu, molestie tortor. Cras maximus, leo aliquet congue tincidunt, nulla diam pretium mi, non efficitur elit magna a leo. Cras sed nibh sem. Nullam pretium porta erat et viverra. Morbi ac sapien elementum, pulvinar lorem eu, facilisis ligula. Aliquam consectetur vestibulum eros, et pulvinar lacus congue non. Integer sit amet blandit erat, sed faucibus odio. Sed ac dignissim eros. Sed nisl ipsum, ullamcorper laoreet enim ac, aliquam ornare nisl. Aliquam porttitor ipsum et enim elementum tempus. Praesent vehicula tortor nunc, non pretium leo sagittis sed.
-
-                </p>
-
-            </section>
-            <br>
-            <!--portfolio cards-->
-        <section class="portfolio">
-            <h4 id="portfolio">Portfolio</h4>
-                <section class="card">
-                    <header>Education</header>
-                    <img src="./assets/images/Education.jpg" alt= "Books">
-                </section>
-                <section class="card">
-                    <header>Experience</header>
-                    <img src="./assets/images/brain.jpg" alt= "brain">
-                </section>
-                <section class="card">
-                    <header>Interests</header>
-                    <img src="./assets/images/interests.jpg" alt= "Gaming set up">
-                </section>
-
-
-        </section>
-
-    </main>
-
-    <!--Footer-->
-    <footer>
-        <h5 id="contact">Contact Me:</h5>
-
-        <nav class="contact-info">
-            <div id="info">
-                <li>
-                     <a href="555.555.5555" target="_blank" rel="noopener noreferrer">555.555.5555</a>
-                </li>
-
-                <li>
-                     <a href="https://gmail.com" target="_blank" rel="noopener noreferrer">Mancinijohn5988@gmail.com</a>
-                 </li>
-
-                <li>
-                 <a href="https://www.linkedin.com/in/john-mancini-49bb59163/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                 </li>
-
-                <li>
-                    <a href="https://github.com/John-Mancini" target="_blank" rel="noopener noreferrer">Github</a>
-                 </li>
-        </div>
+    <section>
+        <!---navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo">Web Flex</a>
+            <!--menu-->
+            <ul>
+               <li><a href="#"class="active">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Work</a></li>
+               <li><a href="#">Contact Me</a></li>
+            </ul>
         </nav>
-    </footer>
-
+        <!--text-->
+        <div class="text-contain">
+            <p>Hello,</p>
+            <p>I'm John Mancini</p>
+            <p>I'm an Aspiring Software Engineer <br>& Designer</p>
+            <button class="hireme">Hire me</botton>
+            <button class="down-res">Download Resume</button>
+        </div>
+    </section>
 </body>
-
 </html>
