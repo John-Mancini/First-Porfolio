@@ -477,8 +477,6 @@ footer #contactme li a{
 
 
 
-@media(max-width:(625px)
-
 
 
 
@@ -628,5 +626,3 @@ footer{
     .card{
         width:100%
     }
-
-}
