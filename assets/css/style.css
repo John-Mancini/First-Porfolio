@@ -417,24 +417,15 @@ footer #contactme li a{
         width: 80%;
     }
     nav ul{
-        margin:0px;
-        padding: 0px;
-        background-color: #ebeef4;
-        flex-direction: column;
-        position:fixed;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        box-sizing: border-box;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 1;
-        display:none;
+      display:flex;
     }
     nav ul li{
-        padding: 10px;
+        margin:-10px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        color:#505050;
+        font-size:15px;
+        font-weight: 100;
+        text-align: right;
     }
     nav ul li a{
         font-family: calibri;
@@ -445,29 +436,48 @@ footer #contactme li a{
     nav ul li a:hover{
         color:#121212;
     }
-    .toggle:before{
-        content:'icon';
-        font-family: fontAwesome;
-        line-height: 30px;
-        z-index: 1;
-    }
 
-    
+
 
 
 
     #headshot{
         display:none;
     }
-    #contactme, #info{
-        height: 100px;
+    footer #contactme{
+        height: 200px;
         width:100%;
         border-radius: 10px;
+        font-weight: 100px;
 
     }
+    footer #contactme li a{
+        display: flex;
+        font-family: calibri;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        color:white;
+        padding: -190px;
+    }
+    footer #info{
+        justify-content:space-between;
+        display: list-item;
+        margin-left: -40px;
+        margin:0px;
+    }
+    footer #info li {
+        margin:-30px;
+        font-size: 10px;
+        color:white;
+    }
+    
+
+    
 }
 
 
+
+@media(max-width:(625px)
 
 
 
