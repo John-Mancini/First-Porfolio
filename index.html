@@ -3,38 +3,43 @@
 <!--character coding, css links, title-->
 <head>
 <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content= "IE-edge">
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
 <title>J.Mancini Portfolio</title>
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
 </head>
 
 <body>
-    <section>
+    <section id="top">
         <!---navigation-->
-        <nav>
+        <nav id="active">
             <!--logo-->
             <a href="#" class="logo">Web-Flex</a>
             <!--menu-->
             <ul>
-               <li><a href="#"class="active">Home</a></li>
-               <li><a href="#">About Me</a></li>
-               <li><a href="#">Work</a></li>
-               <li><a href="#">Contact Me</a></li>
+               <li><a href="#active"class="active">Home</a></li>
+               <li><a href="#aboutme">About Me</a></li>
+               <li><a href="#mainwork">Work</a></li>
+               <li><a href="#contact">Contact Me</a></li>
             </ul>
+            <!--bars-->
+            <div class="toggle"></div>
         </nav>
         <!--text-->
         <div class="text-contain">
             <p>Hello,</p>
             <p>I'm John Mancini</p>
-            <p>I'm an Aspiring Software Engineer <br>& Programmer</p>
+            <p>Aspiring Software Engineer <br>& Programmer</p>
             <button class="hireme">Hire me</botton>
             <button class="down-res">Download Resume</button>
         </div>
     <!--HeadShot-->
-        <img src="./assets/images/headshot.jpg" class="headshot" alt="headshot">
+        <img src="./assets/images/headshot.jpg" id="headshot" alt="headshot">
     </section>
     <!--about me-->
-    <div class ="about-me">
+    
+    <div class ="about-me" id="aboutme">
         <!--text-->
         <div class="about-text">
             <p>About Me</p>
@@ -44,24 +49,70 @@
                 My goal is to focus more on Mobile development and program new and apps for all mobile devices. I'm devoted to the tech industry and am willing to learn as much as possible.
             </p>
         </div>
+    </div>
+  
+    <section id="work">
 
-    </div>
-    <!--work-->
-    <div class="work-text">
-        <p>Work</p>
-    </div>
-    <!--Main Card-->
-    <div class="maincard">
-         <!--card 1-->
-        <div class="card-1"></div>
+        <div id= "mainwork">
+            </div>
+
+        <div class="parent">
+
+            <div class="work-text">
+                <p>Work</p>
+                </div>
+
+            <div class="card-1">
+                <p class="heading">Education</p>
+                <p class="details">Academic accomplisments</p>
+
+            </div>
+
+            <div class="subcards">
+                <div class="card-2">
+                    <p class="heading">History</p>
+                    <p class="details">Previous Jobs and Titles</p>
+
+                </div>
+                <div class="card-3">
+                    <p class="heading">Interests</p>
+                    <p class="details">Hobbies Clubs & Liesure</p>
+
+                </div>` 
+            </div>
+
         </div>
-        <!--Sub cards-->
-        <div class="sub-cards">
-        <!--card 2-->
-        <div class="card-2"></div>
-        <!--card 3-->
-        <div class="card-3"></div>
 
-    </div>
+
+    </section>
+    <!--contact me-->
+    <footer>
+        <section id="contactme">
+
+            <h5 id="contact">Contact Me:</h5>
+
+            <div id="info">
+                <li>
+                     <a href="555.555.5555" target="_blank" rel="noopener noreferrer">555.555.5555</a>
+                </li>
+
+                <li>
+                     <a href="https://gmail.com" target="_blank" rel="noopener noreferrer">Mancinijohn5988@gmail.com</a>
+                 </li>
+
+                <li>
+                 <a href="https://www.linkedin.com/in/john-mancini-49bb59163/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                 </li>
+
+                <li>
+                    <a href="https://github.com/John-Mancini" target="_blank" rel="noopener noreferrer">Github</a>
+                 </li>
+        </div>
+    
+</section>
+    </footer>
+
+
+
 </body>
 </html>
